@@ -6,6 +6,7 @@ import { createSignaling } from '../../services/socket';
 import { RootStackParamList } from '../../AppNavigator';
 import { type MediaStreamTrack } from 'react-native-webrtc';
 import TalkComp from  "../../components/Talk"
+import { SafeAreaView } from 'react-native-safe-area-context';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'Call'>;
 
@@ -125,11 +126,13 @@ export default function CallScreen({ route, navigation }: Props) {
   }, []);
 
   return (
+  <SafeAreaView style={{ flex: 1 ,backgroundColor:"#111"}}> 
   <TalkComp 
   leaveRoom={leaveRoom} 
   localStream={localStream} 
   remoteStream={remoteStream} 
 />
+</SafeAreaView>
   );
 }
 

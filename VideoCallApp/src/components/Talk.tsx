@@ -57,7 +57,7 @@ const height = Dimensions.get("window").height;
 const width = Dimensions.get("window").width;
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#111', padding: 16, marginTop: 30 },
+  container: { flex: 1, backgroundColor: '#111', padding: 16},
   headerRow: {
     flexDirection: 'row',
     justifyContent: 'space-between',
