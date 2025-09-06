@@ -1,0 +1,13 @@
+{
+  "home": {
+    "title": "Oda Oluştur Ya Da Katıl",
+    "join": "Başlat",
+    "roomId": "Oda ID'si"
+  },
+  "call": {
+    "nosignal": "Bağlantı Yok",
+    "leave": "Ayrıl",
+    "local": "Ben",
+    "remote": "Katılımcı"
+  }
+}

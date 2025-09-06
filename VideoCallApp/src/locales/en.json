@@ -1,0 +1,13 @@
+{
+  "home": {
+    "title": "Create or Join a Room",
+    "join": "Start",
+    "roomId": "Room ID"
+  },
+  "call": {
+    "nosignal": "Not Ready",
+    "leave": "Leave",
+    "local": "Me",
+    "remote": "Participant"
+  }
+}
