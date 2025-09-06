@@ -46,13 +46,13 @@ Bu proje React Native (CLI) tabanlı mobil istemci ve NestJS tabanlı bir Socket
 
 📌  Mimari & Akış
 
-Odaya Katılım
+👉 Odaya Katılım
 
 󠁯•󠁏󠁏 Kullanıcı roomId ile odaya katılır.
 
 󠁯•󠁏󠁏 Sunucu, odaya ekler ve eşleşme durumunu yönetir.
 
-📌 Signaling
+👉 Signaling
 
 󠁯•󠁏󠁏 İlk giren kullanıcı caller, ikincisi callee olur.
 
@@ -62,7 +62,7 @@ Odaya Katılım
 
 󠁯•󠁏󠁏 Her iki taraf ICE candidate’larını karşılıklı paylaşır.
 
-📌  WebRTC PeerConnection
+👉 WebRTC PeerConnection
 
 󠁯•󠁏󠁏 mediaDevices.getUserMedia() ile kamera & mikrofon alınır.
 
@@ -70,7 +70,7 @@ Odaya Katılım
 
 󠁯•󠁏󠁏 ontrack ile karşı tarafın medya akışı alınır.
 
-📌  Görüşme
+👉  Görüşme
 
 󠁯•󠁏󠁏 RTCView ile local ve remote görüntü ekranda gösterilir.
 
